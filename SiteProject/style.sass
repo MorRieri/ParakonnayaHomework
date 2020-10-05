@@ -1,0 +1,187 @@
+@import "var"
+@font-face 
+	font-family: Socialico
+	src: url(socialico/socialico.ttf)
+
+
+*
+	margin: 0
+	padding: 0
+html
+	font-size: 16px
+body 
+	font-family: $sansSerif
+	width: 100%
+	max-width: 1280px
+
+
+.container 
+	padding: 3rem 3rem
+
+.header
+	background-color: $dark
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	h1.headerMain 
+		color: $white
+		font: $headerMain
+		padding-bottom: 2rem
+	.header_text
+		color: $white
+		font: $textBig
+		list-style: circle inside url(icons/check_icon_349.png)
+		/*padding-left: 2em
+		/*background-image: url(icons/check_icon_349.png)
+		/*background-position: 0 0
+		/*background-size: 1.5em 1.5em
+		/*background-repeat: no-repeat 
+
+.aboutProduct
+	background-color: $white
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	.aboutProduct_box
+		width: 55%
+		.headerSecond
+			text-align: left
+		p
+			padding-bottom: 2rem
+
+.pluses
+	background-color: $gray
+.plusesBox
+	display: flex
+	flex-flow: column wrap
+	justify-content: space-between
+	p
+		margin-left: 1em
+	li
+		list-style: none outside url(icons/plus.png)
+		
+		
+.screenshots
+	background-color: $white
+	img
+		float:left
+		vertical-align: -moz-middle-with-baseline
+	h3
+		font: $headerThird
+.reviews
+	background-color: $gray
+	.reviews_box
+		display: flex
+		flex-flow: row wrap
+		.avatar
+			display: block
+			float: left
+			vertical-align: middle
+		.review
+			background-image: url(img/bg_review_190.png)
+			
+			.review_text
+			.figcaption
+				font: $textFig
+.buy
+	background-color: $white
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	align-items: flex-end
+	.card
+		width: 300px
+		background-color: $dark
+		border: 1px solid
+		border-radius: 5px;
+		margin-right: 45px
+		.header_buy
+			font: $headerThird
+			color: $white
+			text-align: center
+		.price
+			font: $headerBuy
+			color: $dark
+			background-color: $white
+			text-align: center
+		ol
+			list-style-position: inside
+			color: $white
+			margin: 10px 20px;
+			li
+				font: $textCard
+		.button_buy
+			width: 260px
+			margin: 10px 20px 20px
+		
+		
+.contacts
+	background-color: $dark
+	.contacts_box
+		display: flex
+		flex-flow: row wrap
+		justify-content: center
+		.contacts_form
+			margin-right: 2em
+			input, textarea
+				border-radius: 5px
+				width: 500px
+				align-self: center
+				padding: 10px
+				font: $textSmall
+				margin-bottom: 1em
+			.submit 
+				font-size: 16px
+				padding: 0 50px
+
+	.footer_list
+		list-style: none
+		li.skype:before
+			content: url(icons/skype_icon_319.png)
+			margin-right: 0.5em
+		li.icq:before
+			content: url(icons/icq_icon_324.png)
+			margin-right: 0.5em
+		li.mail:before
+			content: url(icons/email_icon_332.png)
+			margin-right: 0.5em
+		li.tel:before
+			content: url(icons/phone_icon_337.png)
+			margin-right: 0.5em
+		li.socials
+			font-family: $icons
+			font: $textIcons
+			letter-spacing: 0.025em
+			color: $white
+			margin-top: 0.5em
+	.text
+		color: $white
+		font: $textBig
+	.headerSecond
+		font: $headerSecond
+		color: $white
+
+
+.copyright
+	background-color: $white
+	text-align: center
+	font: $textCopyright
+
+.headerSecond
+	font: $headerSecond
+	color: $darkTxt
+	text-align: center
+	padding-bottom: 2rem
+
+.button
+	align-self: center
+	line-height: 40px
+	border-radius: 5px
+	text-transform: uppercase
+	text-align: center
+	font: $textButton
+	color: $dark
+	text-decoration: none
+	box-sizing: border-box
+
+
