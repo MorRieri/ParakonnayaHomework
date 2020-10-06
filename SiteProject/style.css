@@ -2,220 +2,302 @@
   font-family: Socialico;
   src: url(socialico/socialico.ttf); }
 
-/* line 7, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 7, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0; }
 
-/* line 10, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 10, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 html {
   font-size: 16px; }
 
-/* line 12, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 12, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 body {
   font-family: "Arial", sans-serif;
   width: 100%;
   max-width: 1280px; }
 
-/* line 18, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 18, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .container {
   padding: 3rem 3rem; }
 
-/* line 21, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 21, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .header {
   background-color: #445161;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
-  /* line 26, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .header h1.headerMain {
-    color: #ffffff;
-    font: 400 60px/1.2 Arial;
-    padding-bottom: 2rem; }
-  /* line 30, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .header .header_text {
-    color: #ffffff;
-    font: 400 20px/1.8 Arial;
-    list-style: circle inside url(icons/check_icon_349.png);
-    /*padding-left: 2em */
-    /*background-image: url(icons/check_icon_349.png) */
-    /*background-position: 0 0 */
-    /*background-size: 1.5em 1.5em */
-    /*background-repeat: no-repeat */ }
 
-/* line 40, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 26, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.header__heading {
+  color: #ffffff;
+  font: 400 60px/1.2 Arial;
+  padding-bottom: 2rem; }
+
+/* line 30, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.header__text {
+  color: #ffffff;
+  font: 400 20px/1.8 Arial;
+  list-style: circle inside url(icons/check_icon_349.png);
+  /*padding-left: 2em */
+  /*background-image: url(icons/check_icon_349.png) */
+  /*background-position: 0 0 */
+  /*background-size: 1.5em 1.5em */
+  /*background-repeat: no-repeat */ }
+
+/* line 40, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .aboutProduct {
   background-color: #ffffff;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
-  /* line 45, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+  /* line 45, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
   .aboutProduct .aboutProduct_box {
     width: 55%; }
-    /* line 47, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .aboutProduct .aboutProduct_box .headerSecond {
-      text-align: left; }
-    /* line 49, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .aboutProduct .aboutProduct_box p {
-      padding-bottom: 2rem; }
+  /* line 47, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutProduct .headingSecond {
+    text-align: left; }
+  /* line 49, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutProduct .aboutProduct__text {
+    padding-bottom: 2rem; }
 
-/* line 52, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 52, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .pluses {
   background-color: #f5f5f5; }
 
-/* line 54, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-.plusesBox {
+/* line 55, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between; }
-  /* line 58, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .plusesBox p {
-    margin-left: 1em; }
-  /* line 60, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .plusesBox li {
-    list-style: none outside url(icons/plus.png); }
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none outside; }
 
-/* line 64, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 63, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__list__item__text {
+  margin: 0;
+  padding: 0 0 0 46px;
+  position: relative; }
+
+/* line 67, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__list__item {
+  width: 45%;
+  margin-bottom: 2em; }
+
+/* line 70, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__list__item__text:before {
+  content: "+";
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 5px; }
+
+/* line 83, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .screenshots {
   background-color: #ffffff; }
-  /* line 66, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .screenshots img {
-    vertical-align: -moz-middle-with-baseline; }
-  /* line 69, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .screenshots h3 {
-    font: 400 24px/2.25 Arial; }
 
-/* line 71, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 85, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshots_box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+/* line 92, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshot__item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 47%;
+  margin: 0 0 1rem 0;
+  padding: 0; }
+
+/* line 99, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.text_box {
+  margin-left: 1rem; }
+
+/* line 101, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshots__image {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+/* line 105, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshots__heading {
+  font: 400 24px/30px Arial; }
+
+/* line 109, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .reviews {
   background-color: #f5f5f5; }
-  /* line 73, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .reviews .reviews_box {
-    display: flex;
-    flex-flow: row wrap; }
-    /* line 76, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .reviews .reviews_box .avatar {
-      display: block;
-      float: left;
-      vertical-align: middle; }
-    /* line 80, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .reviews .reviews_box .review {
-      background-image: url(img/bg_review_190.png); }
-      /* line 84, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-      .reviews .reviews_box .review .figcaption {
-        font: 400 14px/1.29 Arial; }
 
-/* line 86, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 111, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.reviews__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none outside; }
+
+/* line 119, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.review__item {
+  background: url(img/bg_review_190.png) no-repeat top right;
+  position: relative;
+  width: 483px;
+  height: 121px;
+  margin-left: 0px;
+  padding: 10px; }
+
+/* line 126, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.review__item:before {
+  content: url(img/userpic_176.svg);
+  position: absolute;
+  top: 0;
+  left: -60px; }
+
+/* line 131, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.review__text {
+  font: italic 400 14px/1.29 Arial;
+  margin-left: 2rem;
+  margin-bottom: 1rem; }
+
+/* line 135, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.figcaption {
+  font: 400 14px/1.29 Arial;
+  color: #989898;
+  margin-left: 2rem; }
+
+/* line 140, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .buy {
   background-color: #ffffff;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end; }
-  /* line 92, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .buy .card {
-    width: 300px;
-    background-color: #445161;
-    border: 1px solid;
-    border-radius: 5px;
-    margin-right: 45px; }
-    /* line 98, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .buy .card .header_buy {
-      font: 400 24px/2.25 Arial;
-      color: #ffffff;
-      text-align: center; }
-    /* line 102, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .buy .card .price {
-      font: 400 40px/1.75 Arial;
-      color: #445161;
-      background-color: #ffffff;
-      text-align: center; }
-    /* line 107, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .buy .card ol {
-      list-style-position: inside;
-      color: #ffffff;
-      margin: 10px 20px; }
-      /* line 111, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-      .buy .card ol li {
-        font: 400 14px/1.71 Arial; }
-    /* line 113, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .buy .card .button_buy {
-      width: 260px;
-      margin: 10px 20px 20px; }
 
-/* line 118, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 146, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.card {
+  width: 300px;
+  background-color: #445161;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 1em; }
+
+/* line 152, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.header_buy {
+  font: 400 24px/30px Arial;
+  color: #ffffff;
+  text-align: center;
+  margin: 12px 12px; }
+
+/* line 157, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.price {
+  font: 400 40px/1.75 Arial;
+  color: #445161;
+  background-color: #ffffff;
+  text-align: center; }
+
+/* line 162, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.price__list {
+  list-style-position: inside;
+  color: #ffffff;
+  margin: 10px 20px; }
+  /* line 166, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .price__list li {
+    font: 400 14px/1.71 Arial; }
+
+/* line 168, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.button__buy {
+  width: 260px;
+  margin: 10px 20px 20px; }
+
+/* line 173, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .contacts {
   background-color: #445161; }
-  /* line 120, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+  /* line 175, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
   .contacts .contacts_box {
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
-    /* line 124, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .contacts_box .contacts_form {
-      margin-right: 2em; }
-      /* line 126, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-      .contacts .contacts_box .contacts_form input, .contacts .contacts_box .contacts_form textarea {
+    /* line 179, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .contacts_box .contacts__form {
+      margin: 0 4rem;
+      padding: 0;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center; }
+      /* line 186, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+      .contacts .contacts_box .contacts__form input, .contacts .contacts_box .contacts__form textarea {
         border-radius: 5px;
         width: 500px;
-        align-self: center;
         padding: 10px;
         font: 400 16px/1.5 Arial;
         margin-bottom: 1em; }
-      /* line 133, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-      .contacts .contacts_box .contacts_form .submit {
-        font-size: 16px;
-        padding: 0 50px; }
-  /* line 137, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .contacts .footer_list {
-    list-style: none; }
-    /* line 139, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .footer_list li.skype:before {
+  /* line 192, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .contacts .footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 196, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .footer__list li.skype:before {
       content: url(icons/skype_icon_319.png);
       margin-right: 0.5em; }
-    /* line 142, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .footer_list li.icq:before {
+    /* line 199, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .footer__list li.icq:before {
       content: url(icons/icq_icon_324.png);
       margin-right: 0.5em; }
-    /* line 145, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .footer_list li.mail:before {
+    /* line 202, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .footer__list li.mail:before {
       content: url(icons/email_icon_332.png);
       margin-right: 0.5em; }
-    /* line 148, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .footer_list li.tel:before {
+    /* line 205, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .footer__list li.tel:before {
       content: url(icons/phone_icon_337.png);
       margin-right: 0.5em; }
-    /* line 151, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-    .contacts .footer_list li.socials {
+    /* line 208, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .contacts .footer__list li.socials {
       font-family: "Socialico";
       font: 400 60px/0.4 Socialico;
       letter-spacing: 0.025em;
       color: #ffffff;
       margin-top: 0.5em; }
-  /* line 157, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+  /* line 214, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
   .contacts .text {
     color: #ffffff;
     font: 400 20px/1.8 Arial; }
-  /* line 160, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-  .contacts .headerSecond {
+  /* line 217, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .contacts .headingSecond {
     font: 400 30px/1.2 Arial;
     color: #ffffff; }
 
-/* line 165, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 222, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .copyright {
   background-color: #ffffff;
   text-align: center;
   font: 12px/2 Arial; }
 
-/* line 170, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
-.headerSecond {
+/* line 227, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.headingSecond {
   font: 400 30px/1.2 Arial;
   color: #445152;
   text-align: center;
   padding-bottom: 2rem; }
 
-/* line 176, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/Homework1/style.sass */
+/* line 233, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .button {
   align-self: center;
+  align-items: center;
   line-height: 40px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -224,5 +306,10 @@ body {
   color: #445161;
   text-decoration: none;
   box-sizing: border-box; }
+
+/* line 244, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.contacts__form__submit {
+  font-size: 16px;
+  padding: 0 50px; }
 
 /*# sourceMappingURL=style.css.map */

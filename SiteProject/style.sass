@@ -5,7 +5,7 @@
 
 
 *
-	margin: 0
+	margin: 0 auto
 	padding: 0
 html
 	font-size: 16px
@@ -23,14 +23,14 @@ body
 	display: flex
 	flex-flow: row wrap
 	justify-content: space-between
-	h1.headerMain 
-		color: $white
-		font: $headerMain
-		padding-bottom: 2rem
-	.header_text
-		color: $white
-		font: $textBig
-		list-style: circle inside url(icons/check_icon_349.png)
+.header__heading 
+	color: $white
+	font: $headerMain
+	padding-bottom: 2rem
+.header__text
+	color: $white
+	font: $textBig
+	list-style: circle inside url(icons/check_icon_349.png)
 		/*padding-left: 2em
 		/*background-image: url(icons/check_icon_349.png)
 		/*background-position: 0 0
@@ -44,75 +44,130 @@ body
 	justify-content: space-between
 	.aboutProduct_box
 		width: 55%
-		.headerSecond
-			text-align: left
-		p
-			padding-bottom: 2rem
+	.headingSecond
+		text-align: left
+	.aboutProduct__text
+		padding-bottom: 2rem
 
 .pluses
 	background-color: $gray
-.plusesBox
+.pluses_box
+.pluses__list
+	width: 100%
+	margin: 0
+	padding: 0
 	display: flex
-	flex-flow: column wrap
+	flex-flow: row wrap
 	justify-content: space-between
-	p
-		margin-left: 1em
-	li
-		list-style: none outside url(icons/plus.png)
+	list-style: none outside
+.pluses__list__item__text
+	margin: 0
+	padding: 0 0 0 46px
+	position: relative
+.pluses__list__item
+	width: 45%
+	margin-bottom: 2em
+.pluses__list__item__text:before
+	content: "+"
+	width: 32px
+	height: 32px
+	background-color: #445161
+	color: #fff
+	text-align: center
+	font-size: 28px
+	position: absolute
+	top: 0
+	left: 5px
 		
 		
 .screenshots
 	background-color: $white
-	img
-		float:left
-		vertical-align: -moz-middle-with-baseline
-	h3
-		font: $headerThird
+.screenshots_box
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	width: 100%
+	margin: 0
+	padding: 0
+.screenshot__item
+	display: flex
+	flex-flow: row nowrap
+	justify-content: flex-start
+	width: 47%
+	margin: 0 0 1rem 0
+	padding: 0
+.text_box
+	margin-left: 1rem
+.screenshots__image
+	display: inline-block
+	margin: 0
+	padding: 0
+.screenshots__heading
+	font: $headerThird
+.screenshots__text
+	
 .reviews
 	background-color: $gray
-	.reviews_box
-		display: flex
-		flex-flow: row wrap
-		.avatar
-			display: block
-			float: left
-			vertical-align: middle
-		.review
-			background-image: url(img/bg_review_190.png)
-			
-			.review_text
-			.figcaption
-				font: $textFig
+.reviews__list
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-around
+	width: 100%
+	margin: 0
+	padding: 0
+	list-style: none outside
+.review__item
+	background: url(img/bg_review_190.png) no-repeat top right
+	position: relative
+	width: 483px
+	height: 121px
+	margin-left: 0px
+	padding: 10px
+.review__item:before
+	content: url(img/userpic_176.svg)
+	position: absolute
+	top: 0
+	left: -60px
+.review__text
+	font: $textItalic
+	margin-left: 2rem
+	margin-bottom: 1rem
+.figcaption
+	font: $textFig
+	color: $lightGray
+	margin-left: 2rem
+
 .buy
 	background-color: $white
 	display: flex
 	flex-flow: row wrap
 	justify-content: center
 	align-items: flex-end
-	.card
-		width: 300px
-		background-color: $dark
-		border: 1px solid
-		border-radius: 5px;
-		margin-right: 45px
-		.header_buy
-			font: $headerThird
-			color: $white
-			text-align: center
-		.price
-			font: $headerBuy
-			color: $dark
-			background-color: $white
-			text-align: center
-		ol
-			list-style-position: inside
-			color: $white
-			margin: 10px 20px;
-			li
-				font: $textCard
-		.button_buy
-			width: 260px
-			margin: 10px 20px 20px
+.card
+	width: 300px
+	background-color: $dark
+	border: 1px solid
+	border-radius: 5px;
+	margin-right: 1em
+.header_buy
+	font: $headerThird
+	color: $white
+	text-align: center
+	margin: 12px 12px
+.price
+	font: $headerBuy
+	color: $dark
+	background-color: $white
+	text-align: center
+.price__list
+	list-style-position: inside
+	color: $white
+	margin: 10px 20px;
+	li
+		font: $textCard
+.button__buy
+	width: 260px
+	margin: 10px 20px 20px
 		
 		
 .contacts
@@ -121,21 +176,23 @@ body
 		display: flex
 		flex-flow: row wrap
 		justify-content: center
-		.contacts_form
-			margin-right: 2em
+		.contacts__form
+			margin: 0 4rem
+			padding: 0
+			display: flex
+			flex-flow: column nowrap
+			justify-content: center
+			align-items: center
 			input, textarea
 				border-radius: 5px
 				width: 500px
-				align-self: center
 				padding: 10px
 				font: $textSmall
 				margin-bottom: 1em
-			.submit 
-				font-size: 16px
-				padding: 0 50px
-
-	.footer_list
+	.footer__list
 		list-style: none
+		margin: 0
+		padding: 0
 		li.skype:before
 			content: url(icons/skype_icon_319.png)
 			margin-right: 0.5em
@@ -157,7 +214,7 @@ body
 	.text
 		color: $white
 		font: $textBig
-	.headerSecond
+	.headingSecond
 		font: $headerSecond
 		color: $white
 
@@ -167,7 +224,7 @@ body
 	text-align: center
 	font: $textCopyright
 
-.headerSecond
+.headingSecond
 	font: $headerSecond
 	color: $darkTxt
 	text-align: center
@@ -175,6 +232,7 @@ body
 
 .button
 	align-self: center
+	align-items: center
 	line-height: 40px
 	border-radius: 5px
 	text-transform: uppercase
@@ -183,5 +241,7 @@ body
 	color: $dark
 	text-decoration: none
 	box-sizing: border-box
-
+.contacts__form__submit
+	font-size: 16px
+	padding: 0 50px
 
