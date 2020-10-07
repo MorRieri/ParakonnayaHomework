@@ -17,55 +17,55 @@ body {
   width: 100%;
   max-width: 1280px; }
 
-/* line 18, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 16, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .container {
   padding: 3rem 3rem; }
 
-/* line 21, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 19, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .header {
   background-color: #445161;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
 
-/* line 26, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 24, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .header__heading {
   color: #ffffff;
   font: 400 60px/1.2 Arial;
   padding-bottom: 2rem; }
 
-/* line 30, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.header__text {
+/* line 28, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.header__item {
   color: #ffffff;
   font: 400 20px/1.8 Arial;
-  list-style: circle inside url(icons/check_icon_349.png);
-  /*padding-left: 2em */
-  /*background-image: url(icons/check_icon_349.png) */
-  /*background-position: 0 0 */
-  /*background-size: 1.5em 1.5em */
-  /*background-repeat: no-repeat */ }
+  list-style: circle inside url(icons/check_icon_349.png); }
 
-/* line 40, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.aboutProduct {
+/* line 33, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.aboutproduct {
   background-color: #ffffff;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between; }
-  /* line 45, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .aboutProduct .aboutProduct_box {
-    width: 55%; }
-  /* line 47, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .aboutProduct .headingSecond {
+  justify-content: space-between;
+  margin: 0; }
+  /* line 39, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutproduct .aboutproduct__box {
+    width: 50%; }
+  /* line 41, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutproduct .aboutproduct__heading {
     text-align: left; }
-  /* line 49, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .aboutProduct .aboutProduct__text {
+  /* line 43, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutproduct .aboutproduct__text {
     padding-bottom: 2rem; }
+  /* line 45, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .aboutproduct .aboutproduct__image_432x248 {
+    width: 432px;
+    height: 248px; }
 
-/* line 52, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 49, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .pluses {
   background-color: #f5f5f5; }
 
-/* line 55, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 51, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .pluses__list {
   width: 100%;
   margin: 0;
@@ -75,19 +75,19 @@ body {
   justify-content: space-between;
   list-style: none outside; }
 
-/* line 63, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.pluses__list__item__text {
+/* line 59, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__item-text {
   margin: 0;
   padding: 0 0 0 46px;
   position: relative; }
 
-/* line 67, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.pluses__list__item {
+/* line 63, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__item {
   width: 45%;
   margin-bottom: 2em; }
 
-/* line 70, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.pluses__list__item__text:before {
+/* line 66, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.pluses__item-text:before {
   content: "+";
   width: 32px;
   height: 32px;
@@ -99,11 +99,11 @@ body {
   top: 0;
   left: 5px; }
 
-/* line 83, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 79, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .screenshots {
   background-color: #ffffff; }
 
-/* line 85, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 81, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .screenshots_box {
   display: flex;
   flex-flow: row wrap;
@@ -112,7 +112,7 @@ body {
   margin: 0;
   padding: 0; }
 
-/* line 92, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 88, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .screenshot__item {
   display: flex;
   flex-flow: row nowrap;
@@ -121,25 +121,25 @@ body {
   margin: 0 0 1rem 0;
   padding: 0; }
 
-/* line 99, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 95, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .text_box {
   margin-left: 1rem; }
 
-/* line 101, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.screenshots__image {
+/* line 97, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshot__image {
   display: inline-block;
   margin: 0;
   padding: 0; }
 
-/* line 105, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.screenshots__heading {
+/* line 101, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.screenshot__heading {
   font: 400 24px/30px Arial; }
 
-/* line 109, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 106, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .reviews {
   background-color: #f5f5f5; }
 
-/* line 111, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 108, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .reviews__list {
   display: flex;
   flex-flow: row wrap;
@@ -149,7 +149,7 @@ body {
   padding: 0;
   list-style: none outside; }
 
-/* line 119, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 116, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .review__item {
   background: url(img/bg_review_190.png) no-repeat top right;
   position: relative;
@@ -158,143 +158,149 @@ body {
   margin-left: 0px;
   padding: 10px; }
 
-/* line 126, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 123, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .review__item:before {
   content: url(img/userpic_176.svg);
   position: absolute;
   top: 0;
   left: -60px; }
 
-/* line 131, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 128, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .review__text {
   font: italic 400 14px/1.29 Arial;
   margin-left: 2rem;
   margin-bottom: 1rem; }
 
-/* line 135, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.figcaption {
+/* line 132, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.review__figcaption {
   font: 400 14px/1.29 Arial;
   color: #989898;
   margin-left: 2rem; }
 
-/* line 140, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.buy {
+/* line 137, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__box {
   background-color: #ffffff;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end; }
 
-/* line 146, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.card {
+/* line 143, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__card {
   width: 300px;
   background-color: #445161;
   border: 1px solid;
   border-radius: 5px;
   margin-right: 1em; }
 
-/* line 152, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.header_buy {
+/* line 149, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__heading {
   font: 400 24px/30px Arial;
   color: #ffffff;
   text-align: center;
   margin: 12px 12px; }
 
-/* line 157, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.price {
+/* line 154, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__heading-price {
   font: 400 40px/1.75 Arial;
   color: #445161;
   background-color: #ffffff;
   text-align: center; }
 
-/* line 162, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.price__list {
+/* line 159, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__list {
   list-style-position: inside;
   color: #ffffff;
-  margin: 10px 20px; }
-  /* line 166, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .price__list li {
-    font: 400 14px/1.71 Arial; }
+  margin: 10px 20px;
+  font: 400 14px/1.71 Arial; }
 
-/* line 168, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.button__buy {
+/* line 164, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.prices__button {
   width: 260px;
   margin: 10px 20px 20px; }
 
-/* line 173, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.contacts {
+/* line 169, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer {
   background-color: #445161; }
-  /* line 175, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .contacts .contacts_box {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center; }
-    /* line 179, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .contacts_box .contacts__form {
-      margin: 0 4rem;
-      padding: 0;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center; }
-      /* line 186, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-      .contacts .contacts_box .contacts__form input, .contacts .contacts_box .contacts__form textarea {
-        border-radius: 5px;
-        width: 500px;
-        padding: 10px;
-        font: 400 16px/1.5 Arial;
-        margin-bottom: 1em; }
-  /* line 192, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .contacts .footer__list {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    /* line 196, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .footer__list li.skype:before {
-      content: url(icons/skype_icon_319.png);
-      margin-right: 0.5em; }
-    /* line 199, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .footer__list li.icq:before {
-      content: url(icons/icq_icon_324.png);
-      margin-right: 0.5em; }
-    /* line 202, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .footer__list li.mail:before {
-      content: url(icons/email_icon_332.png);
-      margin-right: 0.5em; }
-    /* line 205, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .footer__list li.tel:before {
-      content: url(icons/phone_icon_337.png);
-      margin-right: 0.5em; }
-    /* line 208, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-    .contacts .footer__list li.socials {
-      font-family: "Socialico";
-      font: 400 60px/0.4 Socialico;
-      letter-spacing: 0.025em;
-      color: #ffffff;
-      margin-top: 0.5em; }
-  /* line 214, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .contacts .text {
-    color: #ffffff;
-    font: 400 20px/1.8 Arial; }
-  /* line 217, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-  .contacts .headingSecond {
+  /* line 171, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .footer .footer__heading {
     font: 400 30px/1.2 Arial;
     color: #ffffff; }
 
-/* line 222, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 174, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item {
+  color: #ffffff;
+  font: 400 20px/1.8 Arial; }
+
+/* line 177, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  /* line 181, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+  .footer__box .footer__form {
+    margin: 0 4rem;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+    /* line 188, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+    .footer__box .footer__form input, .footer__box .footer__form textarea {
+      border-radius: 5px;
+      width: 500px;
+      padding: 10px;
+      font: 400 16px/1.5 Arial;
+      margin-bottom: 1em; }
+
+/* line 194, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 198, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item_skype:before {
+  content: url(icons/skype_icon_319.png);
+  margin-right: 0.5em; }
+
+/* line 201, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item_icq:before {
+  content: url(icons/icq_icon_324.png);
+  margin-right: 0.5em; }
+
+/* line 204, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item_mail:before {
+  content: url(icons/email_icon_332.png);
+  margin-right: 0.5em; }
+
+/* line 207, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item_tel:before {
+  content: url(icons/phone_icon_337.png);
+  margin-right: 0.5em; }
+
+/* line 210, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__list-item_socials {
+  font-family: "Socialico";
+  font: 400 60px/0.4 Socialico;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin-top: 0.5em; }
+
+/* line 219, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .copyright {
   background-color: #ffffff;
   text-align: center;
   font: 12px/2 Arial; }
 
-/* line 227, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.headingSecond {
+/* line 224, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.heading_midi {
   font: 400 30px/1.2 Arial;
   color: #445152;
   text-align: center;
   padding-bottom: 2rem; }
 
-/* line 233, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+/* line 230, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
 .button {
   align-self: center;
   align-items: center;
@@ -307,8 +313,8 @@ body {
   text-decoration: none;
   box-sizing: border-box; }
 
-/* line 244, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
-.contacts__form__submit {
+/* line 241, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/style.sass */
+.footer__form-submit {
   font-size: 16px;
   padding: 0 50px; }
 

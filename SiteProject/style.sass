@@ -13,8 +13,6 @@ body
 	font-family: $sansSerif
 	width: 100%
 	max-width: 1280px
-
-
 .container 
 	padding: 3rem 3rem
 
@@ -27,31 +25,29 @@ body
 	color: $white
 	font: $headerMain
 	padding-bottom: 2rem
-.header__text
+.header__item
 	color: $white
 	font: $textBig
 	list-style: circle inside url(icons/check_icon_349.png)
-		/*padding-left: 2em
-		/*background-image: url(icons/check_icon_349.png)
-		/*background-position: 0 0
-		/*background-size: 1.5em 1.5em
-		/*background-repeat: no-repeat 
 
-.aboutProduct
+.aboutproduct
 	background-color: $white
 	display: flex
 	flex-flow: row wrap
 	justify-content: space-between
-	.aboutProduct_box
-		width: 55%
-	.headingSecond
+	margin: 0
+	.aboutproduct__box
+		width: 50%
+	.aboutproduct__heading
 		text-align: left
-	.aboutProduct__text
+	.aboutproduct__text
 		padding-bottom: 2rem
+	.aboutproduct__image_432x248
+		width: 432px
+		height: 248px
 
 .pluses
 	background-color: $gray
-.pluses_box
 .pluses__list
 	width: 100%
 	margin: 0
@@ -60,14 +56,14 @@ body
 	flex-flow: row wrap
 	justify-content: space-between
 	list-style: none outside
-.pluses__list__item__text
+.pluses__item-text
 	margin: 0
 	padding: 0 0 0 46px
 	position: relative
-.pluses__list__item
+.pluses__item
 	width: 45%
 	margin-bottom: 2em
-.pluses__list__item__text:before
+.pluses__item-text:before
 	content: "+"
 	width: 32px
 	height: 32px
@@ -98,13 +94,14 @@ body
 	padding: 0
 .text_box
 	margin-left: 1rem
-.screenshots__image
+.screenshot__image
 	display: inline-block
 	margin: 0
 	padding: 0
-.screenshots__heading
-	font: $headerThird
-.screenshots__text
+.screenshot__heading
+	font: $headerMini
+.screenshot__text
+	
 	
 .reviews
 	background-color: $gray
@@ -132,91 +129,91 @@ body
 	font: $textItalic
 	margin-left: 2rem
 	margin-bottom: 1rem
-.figcaption
+.review__figcaption
 	font: $textFig
 	color: $lightGray
 	margin-left: 2rem
 
-.buy
+.prices__box
 	background-color: $white
 	display: flex
 	flex-flow: row wrap
 	justify-content: center
 	align-items: flex-end
-.card
+.prices__card
 	width: 300px
 	background-color: $dark
 	border: 1px solid
-	border-radius: 5px;
+	border-radius: 5px
 	margin-right: 1em
-.header_buy
-	font: $headerThird
+.prices__heading
+	font: $headerMini
 	color: $white
 	text-align: center
 	margin: 12px 12px
-.price
-	font: $headerBuy
+.prices__heading-price
+	font: $headerForBuy
 	color: $dark
 	background-color: $white
 	text-align: center
-.price__list
+.prices__list
 	list-style-position: inside
 	color: $white
-	margin: 10px 20px;
-	li
-		font: $textCard
-.button__buy
+	margin: 10px 20px
+	font: $textCard
+.prices__button
 	width: 260px
 	margin: 10px 20px 20px
 		
 		
-.contacts
+.footer
 	background-color: $dark
-	.contacts_box
-		display: flex
-		flex-flow: row wrap
-		justify-content: center
-		.contacts__form
-			margin: 0 4rem
-			padding: 0
-			display: flex
-			flex-flow: column nowrap
-			justify-content: center
-			align-items: center
-			input, textarea
-				border-radius: 5px
-				width: 500px
-				padding: 10px
-				font: $textSmall
-				margin-bottom: 1em
-	.footer__list
-		list-style: none
-		margin: 0
+	.footer__heading
+		font: $headerMidi
+		color: $white
+.footer__list-item
+	color: $white
+	font: $textBig
+.footer__box
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	.footer__form
+		margin: 0 4rem
 		padding: 0
-		li.skype:before
-			content: url(icons/skype_icon_319.png)
-			margin-right: 0.5em
-		li.icq:before
-			content: url(icons/icq_icon_324.png)
-			margin-right: 0.5em
-		li.mail:before
-			content: url(icons/email_icon_332.png)
-			margin-right: 0.5em
-		li.tel:before
-			content: url(icons/phone_icon_337.png)
-			margin-right: 0.5em
-		li.socials
-			font-family: $icons
-			font: $textIcons
-			letter-spacing: 0.025em
-			color: $white
-			margin-top: 0.5em
-	.text
-		color: $white
-		font: $textBig
-	.headingSecond
-		font: $headerSecond
-		color: $white
+		display: flex
+		flex-flow: column nowrap
+		justify-content: center
+		align-items: center
+		input, textarea
+			border-radius: 5px
+			width: 500px
+			padding: 10px
+			font: $textSmall
+			margin-bottom: 1em
+.footer__list
+	list-style: none
+	margin: 0
+	padding: 0
+.footer__list-item_skype:before
+	content: url(icons/skype_icon_319.png)
+	margin-right: 0.5em
+.footer__list-item_icq:before
+	content: url(icons/icq_icon_324.png)
+	margin-right: 0.5em
+.footer__list-item_mail:before
+	content: url(icons/email_icon_332.png)
+	margin-right: 0.5em
+.footer__list-item_tel:before
+	content: url(icons/phone_icon_337.png)
+	margin-right: 0.5em
+.footer__list-item_socials
+	font-family: $icons
+	font: $textIcons
+	letter-spacing: 0.025em
+	color: $white
+	margin-top: 0.5em
+
 
 
 .copyright
@@ -224,8 +221,8 @@ body
 	text-align: center
 	font: $textCopyright
 
-.headingSecond
-	font: $headerSecond
+.heading_midi
+	font: $headerMidi
 	color: $darkTxt
 	text-align: center
 	padding-bottom: 2rem
@@ -241,7 +238,7 @@ body
 	color: $dark
 	text-decoration: none
 	box-sizing: border-box
-.contacts__form__submit
+.footer__form-submit
 	font-size: 16px
 	padding: 0 50px
 
